@@ -1,35 +1,17 @@
 {
   "name": "sco-parser",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "description": "A simple validator and parser for SCO zip files.",
   "main": "index.js",
-  "directories": {
-    "test": "tests"
+  "author": "Beedeez",
+  "license": "MIT",
+  "homepage": "https://github.com/beedeez/node-sco-parser",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beedeez/node-sco-parser.git"
   },
   "scripts": {
     "test": "tap tests/*Tests.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/Mindflash/node-sco-parser.git"
-  },
-  "keywords": [
-    "SCORM",
-    "SCO",
-    "SCORM 1.2",
-    "LMS"
-  ],
-  "author": "Mindflash <npmjs@mindflash.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Mindflash/node-sco-parser/issues"
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "homepage": "https://github.com/Mindflash/node-sco-parser",
-  "devDependencies": {
-    "tap": "^11.1.2"
   },
   "dependencies": {
     "async": "^2.6.0",
@@ -41,5 +23,21 @@
     "xmldom": "^0.1.27",
     "xpath": "0.0.27",
     "yauzl": "^2.10.0"
-  }
+  },
+  "devDependencies": {
+    "tap": "^11.1.2"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "keywords": [
+    "SCORM",
+    "SCO",
+    "SCORM 1.2",
+    "SCORM 2004",
+    "LMS"
+  ]
 }
