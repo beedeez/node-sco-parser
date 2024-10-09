@@ -1,43 +1,43 @@
 {
-  "name": "sco-parser",
-  "version": "3.0.0",
-  "description": "A simple validator and parser for SCO zip files.",
-  "main": "index.js",
-  "author": "Beedeez",
-  "license": "MIT",
-  "homepage": "https://github.com/beedeez/node-sco-parser",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/beedeez/node-sco-parser.git"
-  },
-  "scripts": {
-    "test": "tap tests/*Tests.js"
-  },
-  "dependencies": {
-    "async": "^2.6.0",
-    "fs-tools": "^0.3.0",
-    "lodash": "~2.4.1",
-    "npm-check": "^5.5.2",
-    "rimraf": "^2.6.2",
-    "xml2js": "~0.4.19",
-    "xmldom": "^0.1.27",
-    "xpath": "0.0.27",
-    "yauzl": "^2.10.0"
-  },
-  "devDependencies": {
-    "tap": "^11.1.2"
-  },
-  "directories": {
-    "test": "tests"
-  },
-  "engines": {
-    "node": ">=16"
-  },
-  "keywords": [
-    "SCORM",
-    "SCO",
-    "SCORM 1.2",
-    "SCORM 2004",
-    "LMS"
-  ]
+	"name": "sco-parser",
+	"version": "3.0.0",
+	"description": "A simple validator and parser for SCO zip files.",
+	"main": "index.js",
+	"author": "Beedeez",
+	"license": "MIT",
+	"homepage": "https://github.com/beedeez/node-sco-parser",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/beedeez/node-sco-parser.git"
+	},
+	"scripts": {
+		"test": "tap tests/*Tests.js"
+	},
+	"dependencies": {
+		"@xmldom/xmldom": "^0.9.3",
+		"async": "^2.6.0",
+		"fs-tools": "^0.3.0",
+		"lodash": "~2.4.1",
+		"npm-check": "^5.5.2",
+		"rimraf": "^2.6.2",
+		"xml2js": "~0.4.19",
+		"xpath": "0.0.27",
+		"yauzl": "^2.10.0"
+	},
+	"devDependencies": {
+		"tap": "^11.1.2"
+	},
+	"directories": {
+		"test": "tests"
+	},
+	"engines": {
+		"node": ">=16"
+	},
+	"keywords": [
+		"SCORM",
+		"SCO",
+		"SCORM 1.2",
+		"SCORM 2004",
+		"LMS"
+	]
 }
